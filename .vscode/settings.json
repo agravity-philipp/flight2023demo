@@ -1,3 +1,8 @@
 {
-    "staticWebApps.outputSubpath": "dist/flight2023demo"
+    "staticWebApps.outputSubpath": "dist/flight2023demo",
+    "azureFunctions.deploySubpath": "api/bin/Release/net6.0/publish",
+    "azureFunctions.projectLanguage": "C#",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.preDeployTask": "publish (functions)"
 }
